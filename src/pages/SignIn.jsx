@@ -54,8 +54,21 @@ function SignIn() {
             />
           </div>
 
-          
+          <Link to='/forgot-password' className='forgotPasswordLink'>
+            Forgot Password
+          </Link>
+
+          <div className='signInBar'>
+            <p className='signInText'>Sign In</p>
+            <button className='signInButton'>
+              <ArrowRightIcon fill='#ffffff' width='34px' height='34px' />
+            </button>
+          </div>
         </form>
+
+        <Link to='/sign-up' className='registerLink'>
+          Sign Up Instead
+        </Link>
       </div>
     </>
   )
